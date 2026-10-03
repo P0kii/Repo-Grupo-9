@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goth-AM: Los Más Buscados</title>
+    <meta name="description" content="Explora los expedientes confidenciales de los criminales más notorios de Gotham City, desde el Asilo Arkham hasta la Penitenciaría Blakgate. Descubre sus historias, perfiles y la seguridad que los mantiene bajo control.">
+    <link rel="stylesheet" href="Gotham.css">    
+</head>
+   
+<header> <h1 style="text-align: center;"><strong>Censo de Sombras: Arkham & Blackgate</strong></h1>
+<nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="atracciones.html">Atracciones y Monumentos</a></li>
+                <li><a href="vidanocturna.html">Vida Nocturna</a></li>
+                <li><a href="arkham.html">Prision Arkham</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav> </header>
+              
+<body>
+    
+    <h2>Bienvenido al registro confidencial de la población penal de Gotham City. </h2>
+    <p> Esta sección reúne los expedientes clasificados de los individuos más peligrosos, inestables y calculadores que han amenazado la estabilidad de la ciudad.
+        
+Aquí conviven dos realidades distintas bajo el mismo régimen de contención:</p>
+<div class="Division entre las prisiones">
+    <article class="Asilo Arkham">
+        <h3>Asilo Arkham</h3>
+        <p>El ala psiquiátrica de máxima seguridad destinada a los criminales declarados inimputables. Mentes atrapadas en la obsesión, el delirio y la psicopatía que ven sus celdas no como un castigo, sino como un escenario para su próximo acto.
+    
+        </p>
+        <img src="img/AsiloArkham.jfif" alt="Imagen del Asilo Arkham, mostrando su arquitectura gótica y la atmósfera inquietante que lo rodea." width="600" height="300">
+    <p> Arkham Asylum, ubicado en las afueras de Gotham City y rodeado por los sombríos pantanos de Sionis, fue fundado a principios del siglo XX por el psiquiatra Amadeus     Arkham en honor a su madre, transformando su propia mansión gótica tras una trágica historia familiar que terminó con el propio Amadeus perdiendo la cordura y convirtiéndose en paciente. Este infame sanatorio y prisión de máxima seguridad alberga a los criminales más peligrosos del universo de Batman, como el Guasón, el Espantapájaros y El Acertijo, y es tristemente célebre tanto por sus métodos médicos cuestionables y la corrupción de varios de sus directores, como por los numerosos intentos de fuga y motines que han ocurrido a lo largo de su historia. La arquitectura del asilo refleja un estilo gótico oscuro, con torres imponentes y pasillos laberínticos que contribuyen a la atmósfera inquietante que lo rodea.</p> 
+    
+    
+    </article>
+
+    <article class="Penitenciaría Blackgate">
+        <h3>Penitenciaría de Blackgate</h3>
+        <p>La prisión de alta seguridad para los delincuentes cuerdos, jefes de la mafia, sicarios y mentes maestras del crimen organizado que responden plenamente ante la ley.</p>
+        <img src="img/PrisionBlackgate.jfif" alt="Imagen de la Penitenciaría de Blackgate, mostrando su arquitectura imponente y la atmósfera de control estricto que la caracteriza." width="600" height="300">
+        <p> La Penitenciaría de Blackgate (o Isla Blackgate) es la prisión de máxima seguridad de Gotham City, situada en una isla apartada de la costa y diseñada para albergar a criminales comunes, mafiosos y mercenarios que no necesariamente requieren el aislamiento psiquiátrico de Arkham. A diferencia del manicomio, Blackgate se rige por la brutalidad institucional, celdas de castigo severas y una disciplina férrea, aunque su historia está igualmente marcada por la corrupción de guardias, motines sangrientos y la frecuente fuga de capos criminales como Carmine Falcone, Sal Maroni o Bane. En la cultura pop y en el universo de Batman, funciona como el contrapunto perfecto y más realista de Arkham, representando el sistema penitenciario tradicional llevado a su extremo más corrupto y peligroso.</p>
+    </article>
+</div>
+<section class="Expedientes">
+    <h4>Expedientes Prioritarios: Análisis de Reclusos Notables</h4>
+    <p>Para comprender la magnitud de la amenaza que cada centro representa, se ha elaborado un listado preliminar con los cuatro perfiles más icónicos y de mayor perfil archivados en ambos complejos:</p>
+
+    <h5>Asilo Arkham (Perfil: Criminales Dementes)</h5>
+    <ol>
+        <li><strong>El Joker:</strong> El paciente más impredecible y caótico; responsable de múltiples motines y fugas masivas dentro del psiquiátrico.</li>
+        <Img src="img/ElJoker.jfif" alt="Imagen de El Joker" width="500" height="300"></Img>
+        <p>"El rostro del caos absoluto tras las rejas de Arkham. Sin un pasado claro ni motivos comprensibles, el Príncipe Payaso del Crimen descansa en aislamiento total, convirtiendo cada rincón de su celda de máxima seguridad en un recordatorio constante de que la cordura en Gotham es solo una ilusión frágil."</p>
+        <li><strong>Harley Quinn (Dr. Harleen Quinzel):</strong> Antigua psiquiatra del centro que sucumbió a la manipulación del Joker, convirtiéndose en una reclusa recurrente.</li>
+        <img src="img/HarleyQuinn.jpg" alt="Imagen de Harley Quinn" width="500" height="300">
+          <p>"De la doctora a la cómplice, Harley Quinn representa la delgada línea entre la profesionalidad y la obsesión. Su historia con el Joker es un testimonio de cómo incluso los más brillantes pueden caer en la oscuridad, y su presencia en Arkham es un recordatorio de que el amor y la locura pueden ser armas igualmente peligrosas."</p>
+        <li><strong>El Acertijo (Edward Nygma):</strong> Obsesionado con demostrar su superioridad intelectual; sus celdas suelen requerir protocolos especiales contra sabotajes.</li>
+       <img src="Img/ElAcertijo.Jpg" alt="Imagen de El Acertijo" width="500" height="300">
+           <p>"El Acertijo, con su mente maestra y su obsesión por los enigmas, convierte cada celda en un tablero de ajedrez donde la seguridad es solo un juego más. Sus acertijos no solo desafían a los guardias, sino que también ponen a prueba la paciencia y la inteligencia de quienes se atreven a enfrentarlo."</p>
+        <li><strong>El Espantapájaros (Dr. Jonathan Crane):</strong> Exprofesor de psicología que utiliza el asilo como laboratorio personal para desplegar su toxina del miedo.</li>
+    </ol> 
+    <img src="Img/ElEspantapajaros.jpg" alt="Imagen de El Espantapájaros" width="500" height="300">
+     <p>"El Espantapájaros, con su obsesión por el miedo y la manipulación psicológica, convierte cada celda en un experimento viviente. Su presencia en Arkham es un recordatorio de que el terror no solo se encuentra en las calles de Gotham, sino también en los pasillos oscuros del asilo."</p>
+
+    <h5>Penitenciaría de Blackgate (Perfil: Crimen Organizado)</h5>
+    <ol>
+        <li><strong>El Pingüino (Oswald Cobblepot):</strong> El capo mafioso con mayor red de influencias; opera sus negocios de contrabando incluso tras las rejas.</li>
+        <img src="img/ElPinguinoo.jpg" alt="Imagen de El Pingüino" width="500" height="300">
+        <p>"El Pingüino, con su elegante fachada y su mente criminal, demuestra que el poder no se pierde con las rejas. Desde su celda, sigue moviendo los hilos del bajo mundo de Gotham, recordando a todos que la verdadera amenaza no siempre se encuentra en la violencia directa, sino en la astucia y la influencia."</p>
+
+        <li><strong>Bane:</strong> A pesar de su fuerza sobrehumana, es un estratega cuerdo y calculador encarcelado en las celdas de mayor contención física.</li>
+        <img src="Img/Banee.jpg" alt="Imagen de Bane" width="500" height="300"
+        <p>"Bane, el hombre que rompió al murciélago, es un recordatorio de que la fuerza bruta y la inteligencia estratégica pueden coexistir. Su presencia en Blackgate es un desafío constante para los guardias, quienes deben equilibrar la seguridad física con la vigilancia mental."</p>
+        <li><strong>Carmine Falcone:</strong> Histórico líder del imperio criminal tradicional de Gotham, responsable de controlar las facciones dentro del penal.</li>
+        <img src="img/Carmine Falcone.jpg" alt="Imagen de Carmine Falcone" width="500" height="300">
+        <p>"Carmine Falcone, el patriarca del crimen organizado de Gotham, representa la vieja escuela del poder y la influencia. Su encarcelamiento en Blackgate no ha disminuido su control sobre las calles, y su habilidad para manipular a otros reclusos demuestra que el verdadero poder no siempre se mide por la fuerza, sino por la astucia y la reputación."</p>
+        <li><strong>Deadshot (Floyd Lawton):</strong> El sicario más certero del mundo, retenido en aislamiento para evitar contratos de asesinato en el interior.</li>
+        <img src="img/Deadshot.jpg" alt="Imagen de Deadshot" width="500" height="300">
+        <p>"Deadshot, el asesino más preciso del mundo, es un recordatorio de que la habilidad no siempre se mide por la fuerza, sino por la precisión y la determinación. Su presencia en Blackgate es un desafío constante para los guardias, quienes deben equilibrar la seguridad física con la vigilancia mental."</p>
+    </ol>
+</section>
+</body>
+</html>
