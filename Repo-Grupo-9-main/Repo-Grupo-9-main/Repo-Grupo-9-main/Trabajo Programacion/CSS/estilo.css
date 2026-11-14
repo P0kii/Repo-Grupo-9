@@ -1,11 +1,10 @@
 :root {
-    --color-primario: #434f80;  
-    --color-acento: #6059c5;  
-    --color-fondo: #131418;     
-    --color-texto: #E0E0E0;
-    --fuente: "Inter", sans-serif;
+    --color-fondo-base: #0B0C10;     /* Negro profundo */
+    --color-contenedor: #1F2833;     /* Gris oscuro metálico */
+    --color-header: #121212;         /* Negro azabache */
+    --color-acento: #C5A059;         /* Dorado / Bronce gótico */
+    --color-texto-principal: #E0E0E0;/* Gris claro */
 }
-
 /* Reset básico */
 * {
     box-sizing: border-box;
