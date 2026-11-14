@@ -5,7 +5,9 @@
     --color-acento: #C5A059;         /* Dorado / Bronce gótico */
     --color-texto-principal: #E0E0E0;/* Gris claro */
 }
-/* Reset básico */
+/* 
+   2. RESET Y ESTILOS GENERALES
+                                   */
 * {
     box-sizing: border-box;
     margin: 0;
