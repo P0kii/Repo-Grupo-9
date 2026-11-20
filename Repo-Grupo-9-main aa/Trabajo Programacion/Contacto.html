@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/Gotham.css">
+    <link rel="icon" type="image/png" href="./IMG/gotham logo.png">
+    <title>Gotham City: Contacto</title>
+</head>
+<body>
+<nav>
+  <div>
+    <a href="./Pagina Principal (naza).html">
+      <img class="logo" src="./IMG/gotham logo.png" alt="Logo de Gotham City">
+    </a>
+  </div>
+</nav>
+    <header>
+            <h1>Gotham City: Contacto</h1>
+        <p>Asistencia Gotham City</p>
+        
+        <nav>
+            <ul>
+                <li><a href="Pagina Principal (naza).html">Inicio</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="AtraccionesYMonumentos.html">Atracciones y Monumentos</a></li>
+                <li><a href="VidaNocturna.html">Vida Nocturna</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+
+                <article class="caja-contacto">
+                    <h2>🚨 Llamar a central 🚨</h2>
+                    <p>Para emergencias comuniquese con nuestro departamento <br> Si toca el boton llamara automaticamente</p>
+                    <a href="tel:+911" class="llamadas">Llamar</a>
+                </article>
+
+            <article>
+                <h2>🚨 LINEA DE EMERGENCIAS : 🚨</h2>
+                <p>Telefono Policia <a class="tute" href="tel:911">911</a></p>
+                <p>Correo de consultas: <a class="tute" href="mailto:departamentopolicial@gotham.es">departamentopolicial@gotham.es</a></p>
+                <br>
+                <form id="form-contacto" class="formu">
+                    <h2>Emergencia</h2>
+
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" placeholder="Tu nombre">
+
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" placeholder="Email">
+
+                    <label for="descripcion">Descripción del problema:</label>
+                    <textarea id="descripcion" placeholder="Contanos que paso..."></textarea>
+
+                    <button type="submit">Enviar Reporte</button>
+
+                    <!-- Acá JS escribe el mensaje. Arranca oculto (d-none) -->
+                    <div id="mensaje" class="alert mt-3 d-none" role="alert"></div>
+                </form>
+            </article>
+
+            <article>
+                <h3>Recomendaciones :</h3>
+                <p>Gotham es una ciudad muy agradable pero no es muy segura por eso te damos ciertas recomendaciones si no conoces la zona</p>
+
+            <ul>
+                <li> Si surfes un siniestro manten la calma y brindar la dirección exacta al departamento de policia </li>
+                <li>Si divisás la Batiseñal en el cielo, mantenete resguardado hasta la llegada de las patrullas.</li>
+                <li>No transites a pie por el distrito denominado zona roja pasadas las 22:00 hs.</li>
+            </ul>
+            </article>
+        </section>
+    </main>
+    
+        <footer>
+                <p class="copi">&copy; 2026 Departamento Policial de Gotham City</p>
+        
+                <button type="button" class="btn btn-dark rounded-circle p-3 position-fixed bottom-0 end-0 m-4" data-bs-toggle="modal" data-bs-target="#botoncito">🦇</button>
+
+                    <div class="modal fade" id="botoncito" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="mensajef">
+                                <div class="modal-header">
+                                    <p class="AvisoBatman">Aviso de Batman</p>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <p>Si ocurre un robo y la policía no llega a tiempo, mantenete a salvo. Estoy vigilando Gotham y te voy a ayudar. — El Caballero de la Noche</p>
+                    </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="./JS/main.js"></script>
+</body>
+</html>
